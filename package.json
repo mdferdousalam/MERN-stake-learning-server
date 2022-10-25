@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "starts": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +19,8 @@
   "homepage": "https://github.com/programming-hero-web-course1/b610-lerning-platform-server-side-mdferdousalam#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
   },
   "description": ""
 }
