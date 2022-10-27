@@ -9,7 +9,7 @@ const port = process.env.PORT || 5000;
 const subjects = require("./Data/subjects.json")
 
 app.get('/', (req, res) => {
-    res.send("Surver running")
+    res.send("Surver running api link is: https://b610-lerning-platform-server-side-mauve.vercel.app/subjects ")
 })
 
 app.get('/subjects', (req, res) => {
