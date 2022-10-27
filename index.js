@@ -16,6 +16,12 @@ app.get('/subjects', (req, res) => {
     res.send(subjects)
 })
 
+app.get('/subjects/:id', (req, res) => {
+    const id = req.params.id;
+    const singleSubject = subjects?.find((p) => p.id == id)
+    res.send(singleSubject)
+})
+
 
 app.listen(port, () => {
     console.log(`serving on port: ${port}`)
